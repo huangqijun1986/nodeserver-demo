@@ -1,7 +1,7 @@
 var fs = require('fs');
 function home(request,response) {
       console.log("Request handler 'home' was called.");
-      fs.readFile('./page/project.json','utf-8',function(err,data){
+      fs.readFile('./test.txt','utf-8',function(err,data){
           if(err){
               console.log(err);
           }
